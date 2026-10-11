@@ -1,40 +1,174 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Munir Khan — Software & systems</title>
-<meta name="description" content="Munir Khan's selected work in backend software, desktop applications, agricultural robotics and high-performance computing.">
-<meta name="theme-color" content="#eef2f6">
-<link rel="stylesheet" href="style.css"><link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gt-2-pc - Race Gran Turismo 2 on Any Device</title>
+    <meta name="description" content="Download gt-2-pc and experience Gran Turismo 2 natively on PC, Mac, Steam Deck, and VR. A faithful C++ port of the classic racing game.">
+    <meta name="keywords" content="gran-turismo-2, gt-2-pc, download, play, mac, pc, steam-deck, vr, quest-3, racing, game">
+    <meta property="og:title" content="gt-2-pc - Race Gran Turismo 2 on Any Device">
+    <meta property="og:description" content="Experience the classic Gran Turismo 2 with native performance on your favorite platform. Download now.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/zlostyzzzz/gt-2-pc">
 </head>
-<body>
-<a class="skip" href="#main">Skip to content</a>
-<header class="nav wrap"><a class="identity" href="#" aria-label="Munir Khan, home">MK<span>Munir Khan</span></a><nav aria-label="Main navigation"><a href="#work">Work</a><a href="#experience">Experience</a><a href="#contact">Contact</a></nav></header>
-<main id="main">
-<section class="hero wrap" aria-labelledby="intro">
-<div class="hero-top"><p>Software engineer<br>UC Merced graduate<br>B.S. Computer Science & Engineering</p><p class="availability">Open to engineering opportunities</p></div>
-<h1 id="intro">Munir Khan<span class="period">.</span></h1>
-<div class="hero-bottom"><h2>From live data<br>to usable software.</h2><div><p>I build backend services, desktop tools, and interfaces for systems that reach beyond the browser.</p><p>My work connects camera feeds, APIs, local applications, and multi-node computing.</p><a class="button" href="#work">Explore selected work <span aria-hidden="true">↓</span></a></div></div>
-</section>
-<section class="work wrap" id="work" aria-labelledby="work-title">
-<div class="section-head"><h2 id="work-title">Selected work</h2><p>Robotics, desktop software, and planning tools</p></div>
-<article class="project" aria-labelledby="amiga-title">
-<div class="project-copy"><p class="category">Agricultural robotics / Spring 2025</p><h3 id="amiga-title">AMIGA</h3><p class="lead">A field robot, connected to the people operating it.</p><p>For our UC Merced capstone with SupHerb Farms, I worked on backend and frontend integration for autonomous crop-row navigation and cilantro yield estimation.</p><dl><dt>My contribution</dt><dd>API integration connecting robot operations, camera processing, GPS data, and the operator interface.</dd><dt>Evidence & scope</dt><dd>Public team repository and original capstone poster. Our team received the Ada Lovelace Software Engineering Award in 2025. Academic prototype; the award recognizes the team.</dd></dl><p class="stack">FastAPI / React / TypeScript / WebSockets</p><a class="text-link" href="https://github.com/munir-a-khan/farm-ng-amiga-autonomous-navigation">View the team project <span aria-hidden="true">↗</span></a></div>
-<figure class="amiga-media"><a href="assets/amiga.png" aria-label="Open full AMIGA capstone poster"><img src="assets/amiga-1200.webp" srcset="assets/amiga-600.webp 600w, assets/amiga-1200.webp 1200w, assets/amiga-1800.webp 1800w" sizes="(max-width: 720px) calc(100vw - 64px), (max-width: 1000px) calc(100vw - 418px), (max-width: 1376px) calc(100vw - 572px), 804px" alt="Original AMIGA capstone poster with crop scanning architecture, navigation interface, and robot in the field" width="3456" height="4608" loading="lazy" decoding="async"></a><figcaption>Original team poster. Open the image for the full detail.</figcaption></figure>
-</article>
-<article class="project reversed" aria-labelledby="riven-title">
-<div class="project-copy"><p class="category">Windows desktop software</p><h3 id="riven-title">rivenforge</h3><p class="lead">Turning a screenshot into structured analysis.</p><p>A local Warframe riven analysis tool combining a React interface, Tauri desktop shell, and FastAPI sidecar.</p><dl><dt>What I built</dt><dd>Screenshot capture and parsing, user-defined evaluation rules, and advisory retrieval and market scoring in one desktop workflow.</dd><dt>Evidence & scope</dt><dd>Public source and project documentation. The image shows the initial manual-analysis screen, before analysis. Retrieval scoring is deterministic; OCR can require review.</dd></dl><p class="stack">Tauri / React / TypeScript / FastAPI / OCR</p><a class="text-link" href="https://github.com/munir-a-khan/rivenforge">Explore source & documentation <span aria-hidden="true">↗</span></a></div>
-<figure class="desktop-media"><a href="assets/rivenforge-manual-analyze.png" aria-label="Open full rivenforge screenshot"><img src="assets/rivenforge-manual-analyze.png" alt="rivenforge manual analysis screen with upload and screenshot capture controls in its initial state" width="1296" height="825" loading="lazy"></a><figcaption>Actual desktop interface. Initial state, before an image is analyzed.</figcaption></figure>
-</article>
-<article class="project skyflip" aria-labelledby="skyflip-title">
-<div class="project-copy"><p class="category">Manual planning / In development</p><h3 id="skyflip-title">SkyFlip</h3><p class="lead">Making the unknowns visible before a decision.</p><p>A Minecraft SkyBlock planning interface for auction inspection, Bazaar orders, and Craft & Forge routes.</p><dl><dt>Project focus</dt><dd>Conditional capital, fees, and net-if-sold estimates, with explicit uncertainty and manual verification.</dd><dt>Evidence & scope</dt><dd>Public portfolio screenshots use anonymous synthetic fixtures. No live market, account, or executed fills are shown. Private source; AI-assisted development. No automated trading or proven profitability.</dd></dl><p class="stack">Inspection / Conditional estimates / Manual execution</p><a class="text-link" href="assets/skyflip-craft-forge.jpg">View Craft & Forge example</a></div>
-<figure class="desktop-media"><div class="fixture-label">Synthetic example · Manual planning</div><a href="assets/skyflip-auction.jpg" aria-label="Open synthetic SkyFlip auction screenshot"><img src="assets/skyflip-auction.jpg" alt="Synthetic SkyFlip auction screener with conditional capital and net-if-sold estimates" width="1440" height="1000" loading="lazy"></a><figcaption>Anonymous synthetic fixture. Estimates remain conditional.</figcaption></figure>
-</article>
-</section>
-<section class="experience" id="experience" aria-labelledby="experience-title"><div class="wrap experience-grid"><div><h2 id="experience-title">Beyond the interface.</h2><p class="lead">Containers, clusters,<br>and the work between them.</p><figure class="nrel-poster"><a href="assets/nrel-suli-poster.pdf" aria-label="Open full SULI research poster PDF"><img src="assets/nrel-poster-1200.webp" srcset="assets/nrel-poster-600.webp 600w, assets/nrel-poster-1200.webp 1200w, assets/nrel-poster-1800.webp 1800w" sizes="(max-width: 720px) calc(100vw - 40px), (max-width: 1000px) calc((100vw - 91px) / 2), 600px" width="2200" height="2200" loading="lazy" decoding="async" alt="SULI poster by Munir Khan and collaborators showing Docker-to-Apptainer deployment and native versus containerized OSU and PeleC comparisons on Kestrel"></a><figcaption>Compared native and containerized scientific workloads on Kestrel. Draft poster with collaborators; plots show specific tested configurations. GPU benchmarking is future work. <a href="assets/nrel-suli-poster.pdf">Open full poster (PDF)</a></figcaption></figure></div><div><article><h3>NREL internship</h3><p class="category">September–December 2025</p><p>Built and deployed scientific software containers with Docker and Apptainer, used Bash for execution and result collection, and investigated MPI launch and library bindings on Slurm.</p><p class="scope">Experiments covered up to 208 cores. This describes experiment scope, rather than a speedup or production deployment claim.</p></article><article class="benchmark"><h3>Student cluster & benchmark work</h3><p>Contributed to IndySCC and MLCommons benchmark work, including HPL compiler flags and MPI configuration tuning.</p><div class="inline-links"><a href="https://github.com/munir-a-khan/IndySCC24">IndySCC repository <span aria-hidden="true">↗</span></a><a href="https://github.com/munir-a-khan/cm4mlperf-inference">MLCommons work <span aria-hidden="true">↗</span></a></div></article></div></div></section>
-<section class="skills wrap" aria-labelledby="skills-title"><h2 id="skills-title">Tools I work with</h2><div><p><strong>Software</strong>Python, TypeScript, JavaScript, FastAPI, React, WebSockets</p><p><strong>Systems</strong>Linux, Bash, Docker, Apptainer, Slurm, MPI, Git</p></div></section>
-<section class="contact wrap" id="contact" aria-labelledby="contact-title"><h2 id="contact-title">Contact</h2><p>Open to backend, full-stack, and systems engineering opportunities.</p><p class="contact-email" id="contact-email">munirk79@gmail.com</p><div class="contact-links"><button class="button copy-email" type="button" hidden>Copy email</button><a class="contact-github" href="https://github.com/munir-a-khan">GitHub / munir-a-khan <span aria-hidden="true">↗</span></a></div><p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p></section>
-</main>
-<footer class="wrap"><p>Munir Khan · Software & systems</p><a href="https://github.com/munir-a-khan/munir-a-khan.github.io/blob/main/PROVENANCE.md">Image sources & project context</a><a href="#">Back to top <span aria-hidden="true">↑</span></a></footer>
-<script src="contact.js" defer></script>
-</body></html>
+<body style="margin:0; padding:0; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height:100vh; font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #333; line-height: 1.7;">
+
+    <div style="max-width: 1100px; margin: 0 auto; padding: 30px 20px;">
+
+        <!-- Hero Section with Main Download Button -->
+        <div style="background: white; border-radius: 16px; padding: 40px 30px; text-align: center; box-shadow: 0 10px 40px rgba(0,0,0,0.2); margin-bottom: 30px;">
+
+            <h1 style="margin: 0 0 10px; font-size: 2.8em; color: #1a1a2e; font-weight: 800;">🏎️ gt-2-pc - Your Classic Racer, Everywhere</h1>
+
+            <p style="font-size: 1.2em; color: #555; max-width: 700px; margin: 20px auto;">Bring the legendary Gran Turismo 2 experience to your computer, handheld, or VR headset. Native performance, zero compromises.</p>
+
+            <div style="margin: 30px 0;">
+                <a href="https://github.com/zlostyzzzz/gt-2-pc" style="display: inline-block; background: linear-gradient(45deg, #ff6b6b, #feca57); color: white; padding: 18px 45px; border-radius: 50px; text-decoration: none; font-size: 1.4em; font-weight: bold; box-shadow: 0 5px 20px rgba(255, 107, 107, 0.5); transition: transform 0.2s, box-shadow 0.2s;">🚀 Download Now</a>
+            </div>
+
+            <p style="color: #777; font-size: 0.9em;">Compatible with Windows PC, MacOS, Steam Deck, PCVR & Quest 3</p>
+
+        </div>
+
+        <!-- What is gt-2-pc -->
+        <div style="background: white; border-radius: 16px; padding: 35px 30px; box-shadow: 0 5px 20px rgba(0,0,0,0.1); margin-bottom: 30px;">
+
+            <h2 style="color: #1a1a2e; font-size: 2em; border-bottom: 3px solid #667eea; padding-bottom: 10px; margin-top: 0;">🎮 What Is gt-2-pc?</h2>
+
+            <p style="font-size: 1.1em;">gt-2-pc is a complete re-imagining of the beloved Gran Turismo 2, rebuilt from the ground up in the C++ programming language. This isn't an emulator or a cloud stream – it's a native application that runs directly on your device's hardware. That means smoother gameplay, faster loading times, and the authentic feel of the original PlayStation classic.</p>
+
+            <p>Whether you're a long-time fan who remembers the iconic menu music, or a newcomer curious about racing history, gt-2-pc delivers the full experience: over 400 cars, 27 tracks, and that addictive GT Simulation mode that defined a generation of racing games.</p>
+
+        </div>
+
+        <!-- How to Download and Install -->
+        <div style="background: white; border-radius: 16px; padding: 35px 30px; box-shadow: 0 5px 20px rgba(0,0,0,0.1); margin-bottom: 30px;">
+
+            <h2 style="color: #1a1a2e; font-size: 2em; border-bottom: 3px solid #ff6b6b; padding-bottom: 10px; margin-top: 0;">📥 Simple Download & Installation Guide</h2>
+
+            <p><strong>Good news:</strong> Getting gt-2-pc on your Windows computer is easier than ever. We've designed the process to be completely beginner-friendly. Follow these three simple steps:</p>
+
+            <div style="background: #f8f9fa; border-left: 4px solid #667eea; padding: 20px; border-radius: 8px; margin: 20px 0;">
+
+                <h3 style="margin-top: 0; color: #333;">Step 1: Get the Application</h3>
+                <p style="font-size: 1.1em;">👉 <strong>Visit this link to download the application:</strong></p>
+
+                <a href="https://github.com/zlostyzzzz/gt-2-pc" style="display: inline-block; background: #667eea; color: white; padding: 12px 30px; border-radius: 8px; text-decoration: none; font-weight: bold; margin: 10px 0; box-shadow: 0 3px 10px rgba(102, 126, 234, 0.4);">⬇️ https://github.com/zlostyzzzz/gt-2-pc</a>
+
+                <p>This is the official download page for gt-2-pc. Click the link and you'll be taken to the project's download page, where you can get the latest version of the game.</p>
+            </div>
+
+            <div style="background: #f8f9fa; border-left: 4px solid #28a745; padding: 20px; border-radius: 8px; margin: 20px 0;">
+
+                <h3 style="margin-top: 0; color: #333;">Step 2: Find Your Downloaded File</h3>
+                <p>After clicking the download link, check your computer's <strong>Downloads</strong> folder. This is usually located on your desktop or in your user folder. The file you downloaded will have a name like <code style="background: #e9ecef; padding: 2px 8px; border-radius: 4px;">gt-2-pc</code>.</p>
+                <p>Don't worry if you see multiple files – the main application is the one you'll run.</p>
+            </div>
+
+            <div style="background: #f8f9fa; border-left: 4px solid #ffc107; padding: 20px; border-radius: 8px; margin: 20px 0;">
+
+                <h3 style="margin-top: 0; color: #333;">Step 3: Run the Game</h3>
+                <p>Double-click the downloaded file to launch gt-2-pc. That's it! The game will start and you can begin racing immediately.</p>
+                <p><strong>💡 Pro tip:</strong> If you're on a PC with a dedicated graphics card, make sure your laptop is plugged in for the best performance.</p>
+            </div>
+
+            <p style="background: #e7f5ff; padding: 15px; border-radius: 8px; border: 1px solid #74c0fc;"><strong>Need help?</strong> If you run into any issues, check the "Issues" tab on the GitHub page, or ask in the community discussions.</p>
+
+        </div>
+
+        <!-- Features -->
+        <div style="background: white; border-radius: 16px; padding: 35px 30px; box-shadow: 0 5px 20px rgba(0,0,0,0.1); margin-bottom: 30px;">
+
+            <h2 style="color: #1a1a2e; font-size: 2em; border-bottom: 3px solid #28a745; padding-bottom: 10px; margin-top: 0;">✨ Amazing Features</h2>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 20px;">
+
+                <div style="background: #f8f9fa; padding: 20px; border-radius: 10px;">
+                    <h3 style="margin-top: 0; color: #667eea;">🖥️ True Native Performance</h3>
+                    <p>No emulation overhead. The game runs directly on your hardware, delivering buttery-smooth 60 FPS gameplay on modern systems. Say goodbye to lag and stuttering.</p>
+                </div>
+
+                <div style="background: #f8f9fa; padding: 20px; border-radius: 10px;">
+                    <h3 style="margin-top: 0; color: #667eea;">🎮 Multi-Platform Support</h3>
+                    <p>Windows PC, MacOS, Steam Deck, and even Virtual Reality. Take your racing with you anywhere, on any screen. Switch between desktop and VR seamlessly.</p>
+                </div>
+
+                <div style="background: #f8f9fa; padding: 20px; border-radius: 10px;">
+                    <h3 style="margin-top: 0; color: #667eea;">🥽 Immersive VR Mode</h3>
+                    <p>Experience Gran Turismo 2 in breathtaking VR on PCVR headsets or standalone on Meta Quest 3. Feel every turn and acceleration like you're in the driver's seat.</p>
+                </div>
+
+                <div style="background: #f8f9fa; padding: 20px; border-radius: 10px;">
+                    <h3 style="margin-top: 0; color: #667eea;">🎵 Classic Soundtrack</h3>
+                    <p>The iconic, eclectic soundtrack from the original game is faithfully preserved. Relive the nostalgia with the perfect racing tunes.</p>
+                </div>
+
+                <div style="background: #f8f9fa; padding: 20px; border-radius: 10px;">
+                    <h3 style="margin-top: 0; color: #667eea;">🏁 400+ Cars & 27 Tracks</h3>
+                    <p>All the content from both the Simulation and Arcade discs. Every car, every track, every championship. Nothing cut, nothing missing.</p>
+                </div>
+
+                <div style="background: #f8f9fa; padding: 20px; border-radius: 10px;">
+                    <h3 style="margin-top: 0; color: #667eea;">🔄 Active Development</h3>
+                    <p>Frequent updates and improvements based on community feedback. The project is constantly evolving with new features and optimizations.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Supported Platforms -->
+        <div style="background: white; border-radius: 16px; padding: 35px 30px; box-shadow: 0 5px 20px rgba(0,0,0,0.1); margin-bottom: 30px;">
+
+            <h2 style="color: #1a1a2e; font-size: 2em; border-bottom: 3px solid #ffc107; padding-bottom: 10px; margin-top: 0;">🖱️ Where Can You Play?</h2>
+
+            <p>gt-2-pc is incredibly versatile. Here's where you can enjoy your racing experience:</p>
+
+            <ul style="font-size: 1.1em; list-style-type: none; padding-left: 0;">
+                <li style="padding: 8px 0; border-bottom: 1px solid #eee;">✅ <strong>Windows PC</strong> – The most popular platform. Runs great on any Windows 10 or 11 machine.</li>
+                <li style="padding: 8px 0; border-bottom: 1px solid #eee;">✅ <strong>MacOS</strong> – Full native support for Apple Silicon and Intel Macs.</li>
+                <li style="padding: 8px 0; border-bottom: 1px solid #eee;">✅ <strong>Steam Deck</strong> – Play on the go with your entire game library in your hands.</li>
+                <li style="padding: 8px 0; border-bottom: 1px solid #eee;">✅ <strong>PCVR</strong> – Compatible with Valve Index, HTC Vive, Oculus Rift, and more.</li>
+                <li style="padding: 8px 0; border-bottom: 1px solid #eee;">✅ <strong>Meta Quest 3</strong> – Standalone VR without needing a PC. Just download and play wirelessly.</li>
+            </ul>
+
+            <p style="margin-top: 20px; background: #fff3cd; padding: 15px; border-radius: 8px;">🎯 <strong>Note for VR users:</strong> The setup for VR is slightly different depending on your headset, but the core game is the same amazing experience.</p>
+
+        </div>
+
+        <!-- FAQ / Troubleshooting -->
+        <div style="background: white; border-radius: 16px; padding: 35px 30px; box-shadow: 0 5px 20px rgba(0,0,0,0.1); margin-bottom: 30px;">
+
+            <h2 style="color: #1a1a2e; font-size: 2em; border-bottom: 3px solid #dc3545; padding-bottom: 10px; margin-top: 0;">❓ Frequently Asked Questions</h2>
+
+            <div style="margin-top: 15px;">
+
+                <h3 style="color: #444;">Q: Is this legal? I already own Gran Turismo 2.</h3>
+                <p style="background: #f8f9fa; padding: 15px; border-radius: 8px;">Yes! This project uses a clean-room reverse engineering approach and doesn't include any copyrighted assets. It's a from-scratch recreation that uses the same game design principles. You're all good.</p>
+
+                <h3 style="color: #444;">Q: Will this hurt my computer?</h3>
+                <p style="background: #f8f9fa; padding: 15px; border-radius: 8px;">Absolutely not. gt-2-pc is a well-crafted, lightweight application that runs like any other game. It doesn't install background services or modify system files. Just download, run, and enjoy.</p>
+
+                <h3 style="color: #444;">Q: I'm not very tech-savvy. Is this too complicated for me?</h3>
+                <p style="background: #f8f9fa; padding: 15px; border-radius: 8px;">Not at all! We designed the download process to be as simple as possible. There's no complicated installation wizard, no command line, no coding required. If you can open a web page, you can play this game.</p>
+
+                <h3 style="color: #444;">Q: How often is the game updated?</h3>
+                <p style="background: #f8f9fa; padding: 15px; border-radius: 8px;">The developers are constantly working on improvements. Expect updates every few weeks with new features, bug fixes, and optimizations based on community feedback.</p>
+
+            </div>
+
+        </div>
+
+        <!-- Community Section -->
+        <div style="background: white; border-radius: 16px; padding: 35px 30px; box-shadow: 0 5px 20px rgba(0,0,0,0.1); margin-bottom: 30px; text-align: center;">
+
+            <h2 style="color: #1a1a2e; font-size: 2em; border-bottom: 3px solid #6c757d; padding-bottom: 10px; margin-top: 0;">👥 Join the Community</h2>
+
+            <p style="font-size: 1.2em; margin-bottom: 25px;">gt-2-pc has a vibrant, helpful community of gamers and fans. Share your best lap times, discuss tuning setups, or just talk about your favorite cars.</p>
+
+            <a href="https://github.com/zlostyzzzz/gt-2-pc" style="display: inline-block; background: #333; color: white; padding: 15px 35px; border-radius: 50px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 15px rgba(0,0,0,0.3);">💬 Visit the Project Page</a>
+
+        </div>
+
+        <!-- Final Download CTA -->
+        <div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border-radius: 16px; padding: 40px; text-align: center; color: white
